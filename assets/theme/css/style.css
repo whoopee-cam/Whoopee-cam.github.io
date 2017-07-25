@@ -51,7 +51,7 @@
   font-size: 0.9687rem;
   line-height: 1.5;
   border-radius: 3px;
-  font-family: "Lora";
+  font-family: "serif";
   font-style: italic;
   font-weight: 400;
   letter-spacing: 0px; }
@@ -457,7 +457,7 @@ p.lead,
   font-size: 1.07rem;
   font-weight: 300; }
   .lead a {
-    font-family: "Lora";
+    font-family: "serif";
     font-style: italic;
     font-weight: 400; }
     .lead a, .lead a:hover {
@@ -482,7 +482,7 @@ p.lead,
     font-weight: 600;
     margin-bottom: 1.605rem; }
   .lead blockquote {
-    font-family: "Lora";
+    font-family: "serif";
     font-style: italic;
     padding: 10px 0 10px 20px;
     border-left: 4px solid #c39f76;
@@ -682,7 +682,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   font-style: italic;
   font-weight: 400;
   font-size: 17px;
-  font-family: "Lora";
+  font-family: "serif";
   line-height: 26px;
   color: #8c8c8c;
   margin-bottom: 30px; }
@@ -697,7 +697,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   margin-bottom: 1.6875rem; }
 .mbr-section-hero .mbr-section-lead {
   color: #fff;
-  font-family: Lora;
+  font-family: serif;
   font-size: 1.5rem;
   font-style: italic;
   margin-top: -1em; }
@@ -1276,7 +1276,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   font-style: italic;
   font-weight: 400;
   font-size: 0.875rem;
-  font-family: "Lora";
+  font-family: "serif";
   color: #5b5b5b;
   margin-top: -1rem;
   line-height: 1.7857;
@@ -1344,7 +1344,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     margin-bottom: 0; }
   .mbr-plan-subtitle, .mbr-plan-price-desc {
     color: #a0a0a0;
-    font-family: "Lora";
+    font-family: "serif";
     font-size: 0.875rem;
     font-style: italic;
     font-weight: 400;
@@ -1451,7 +1451,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   .mbr-testimonial .card-block {
     background: #f4f4f4;
     color: #565656;
-    font-family: "Lora";
+    font-family: "serif";
     font-size: 1.125rem;
     font-style: italic;
     font-weight: 400;
@@ -1501,7 +1501,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   padding-top: 1.25rem; }
 .mbr-author-desc {
   color: #a7a7a7;
-  font-family: "Lora";
+  font-family: "serif";
   font-size: 0.875rem;
   font-style: italic;
   font-weight: 400;
