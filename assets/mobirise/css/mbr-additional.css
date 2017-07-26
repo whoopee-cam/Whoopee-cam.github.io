@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=avenir next:400,700);
 /*@import url(https://fonts.googleapis.com/css?family=serif:400,700);*/
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=avenir next:400,300,700);
 
 
 
@@ -8,11 +8,11 @@ body,
 input,
 textarea,
 .mbr-company .list-group-text {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .mbr-footer-content li,
 .mbr-footer .mbr-contacts li {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .btn,
 .alert,
@@ -36,7 +36,7 @@ h6,
 .mbr-gallery-title,
 .mbr-map [data-state-details],
 .mbr-price {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .mbr-footer-content h1,
 .mbr-footer .mbr-contacts h1,
@@ -50,7 +50,7 @@ h6,
 .mbr-footer .mbr-contacts p strong,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .btn {
   border-radius: 1.6em;
@@ -68,13 +68,13 @@ h6,
   font-family: 'serif', serif;
 }
 .mbr-author-name {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .mbr-author-desc {
   font-family: 'serif', serif;
 }
 .mbr-plan-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
@@ -419,7 +419,7 @@ h6,
 }
 .extCountdown1 .number,
 .extCountdown2 .number {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extCountdown1 .period,
 .extCountdown2 .period {
@@ -427,20 +427,20 @@ h6,
 }
 .extCountdown1 .dot,
 .extCountdown2 .dot {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .features6 .feature-subtitle {
   font-family: 'serif', serif;
 }
 .features6 .feature-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .features6 .description {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .count,
 .counter-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .counter-subtitle {
   font-family: 'serif', serif;
@@ -460,7 +460,7 @@ h6,
 .extHeader12 .container h3,
 .extHeader13 .container h3,
 .extFeatures10 .container h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extHeader1 .container p,
 .extHeader2 .container p,
@@ -480,48 +480,48 @@ h6,
   font-family: 'serif', serif;
 }
 .extHeader9 form p.form-subtitle {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extHeader11 .container span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extHeader11 .container p.element {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extHeader11 .container p {
   font-family: 'serif', serif;
 }
 .extHeader12 h4,
 .extFeatures10 h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extHeader12 .subtitle,
 .extFeatures10 .subtitle {
   font-family: 'serif', serif;
 }
 .extHeader13 h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extHeader13 .number {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extHeader13 .period {
   font-family: 'serif', serif;
 }
 .extHeader13 .dot {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extFeatures .feature-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extFeatures .feature-subtitle {
   font-family: 'serif', serif;
 }
 .extFeatures .feature-text {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extFeatures2 h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extFeatures3 .border-wrap {
   border-color: #efefef;
@@ -529,7 +529,7 @@ h6,
 .extFeatures4 h4,
 .extFeatures6 h4,
 .extFeatures5 .card-title h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extFeatures4 h5,
 .extFeatures6 h5,
@@ -540,7 +540,7 @@ h6,
 .extForm2 h4,
 .extForm3 h4,
 .extForm4 h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extForm1 .subtitle,
 .extForm2 .subtitle,
@@ -549,7 +549,7 @@ h6,
   font-family: 'serif', serif;
 }
 .extForm2 .container h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extForm2 .container p {
   font-family: 'serif', serif;
@@ -564,16 +564,16 @@ h6,
   background: #efefef;
 }
 .extCounters2 h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extCounters2 h5 {
   font-family: 'serif', serif;
 }
 .extCounters3 .count {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extCounters3 .counter-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extCounters3 .counter-subtitle {
   font-family: 'serif', serif;
@@ -593,10 +593,10 @@ h6,
   font-family: 'serif', serif;
 }
 .extProgressBarRound .progress-radial .overlay {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extProgressBar4 .feature-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extProgressBar4 .feature-subtitle {
   font-family: 'serif', serif;
@@ -606,7 +606,7 @@ h6,
   color: #efefef;
 }
 .extAccordion1 .panel-heading a {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extAccordion1 .pseudoPlus,
 .extAccordion2 .pseudoPlus,
@@ -622,7 +622,7 @@ h6,
 .extAccordion2 .panel-heading a,
 .extAccordion3 .panel-heading a,
 .extToggle1 .panel-heading a {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extProgressBar5 .progress-primary[value]::-webkit-progress-value {
   background-color: #efefef;
@@ -639,13 +639,13 @@ h6,
   font-family: 'serif', serif;
 }
 .extMsg-box1 .container h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extMsg-box1 .container p {
   font-family: 'serif', serif;
 }
 .extMsg-box1 h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extMsg-box1 .subtitle {
   font-family: 'serif', serif;
@@ -653,7 +653,7 @@ h6,
 .extMsg-box2 .container span,
 .extMsg-box3 .container span,
 .extMsg-box4 .container span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extMsg-box2 .container p,
 .extMsg-box3 .container p,
@@ -661,7 +661,7 @@ h6,
   font-family: 'serif', serif;
 }
 .extProgressBarRound .pie_progress__number {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir next', sans-serif;
 }
 .extMenu1 span.icon a:hover {
   color: #efefef !important;
