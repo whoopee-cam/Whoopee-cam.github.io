@@ -1208,15 +1208,14 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .mbr-cards-col {
   padding-left: 0;
   padding-right: 0;
-  padding-top: 120px;
-  padding-bottom: 120px; }
+  padding-bottom: 50px; }
   @media (max-width: 767px) {
     .mbr-cards-col {
       padding-top: 60px;
       padding-bottom: 60px; } }
 .mbr-cards .striped .card {
-  padding-left: 10%;
-  padding-right: 10%; }
+ /* padding-left: 10%;
+  padding-right: 10%;*/ }
 .mbr-cards .striped .mbr-cards-col:nth-child(2n+1) {
   background: #2e2e2e;
   color: #fff; }
