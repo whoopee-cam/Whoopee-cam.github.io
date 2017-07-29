@@ -8421,7 +8421,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	float: left;
 	width: 10%;
 	position: relative;
-	opacity: 0.25;
+	opacity: 1;
 	-webkit-transition: opacity 0.3s ease, filter 0.3s ease;
 	-moz-transition: opacity 0.3s ease, filter 0.3s ease;
 	-ms-transition: opacity 0.3s ease, filter 0.3s ease;
@@ -8441,6 +8441,11 @@ body.logged-in .YouTubePopUp-Wrap {
 .instagram-widget__item:hover .instagram-widget__image {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
 }
 
 .instagram-widget__link {
@@ -8465,8 +8470,8 @@ body.logged-in .YouTubePopUp-Wrap {
 
 .instagram-widget__image {
 	display: block;
-	-webkit-filter: grayscale(1);
-	filter: grayscale(1);
+	-webkit-filter: grayscale(0.8);
+	filter: grayscale(0.8);
 }
 /* ==========================================================================
    Block: Link List
