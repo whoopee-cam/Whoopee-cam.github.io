@@ -7845,7 +7845,7 @@ body.logged-in .YouTubePopUp-Wrap {
 
 .carousel__outer {
 	margin: 0 -200px;
-	padding-top: 50px;
+	/*padding-top: 50px;*/
 }
 
 .carousel__inner {
@@ -7977,14 +7977,16 @@ body.logged-in .YouTubePopUp-Wrap {
    Dependencies: no dependencies
    ========================================================================== */
 .download-button {
-	background-color: white;
-	position: relative;
-	padding: 20px 20px 20px 80px;
 	display: block;
-	max-width: 275px;
 	margin: 0 auto 0 auto;
-	-webkit-box-shadow: 0px 2px 8px 0px rgba(221, 221, 221, 0.75);
-	box-shadow: 0px 2px 8px 0px rgba(221, 221, 221, 0.75);
+    background: rgba(0, 0, 0, 0) url(http://d1tske86w9egq6.cloudfront.net/wp-content/uploads/2016/10/all-icons-sprite-19.png) no-repeat scroll 0 0;
+    background-position: -755px -554px;
+    height: 60px;
+    width: 195px;
+    border-width: 1px;
+    border-color: #c4cace;
+    border-style: solid;
+    border-radius: 4px;
 }
 
 .download-button__icon {
@@ -9387,7 +9389,7 @@ a[href^="https://maps.google.com/maps"] {
    Dependencies: Fontello.less
    ========================================================================== */
 .section {
-	padding: 90px 0;
+	padding: 50px 0;
 	position: relative;
 }
 
