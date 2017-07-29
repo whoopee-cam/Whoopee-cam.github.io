@@ -2447,6 +2447,7 @@ select[multiple].input-lg {
 
 	.col-md-20 {
 		width: 83.33333333%;
+		padding-top: 22px;
 	}
 
 	.col-md-19 {
@@ -8276,7 +8277,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	z-index: 10;
 	position: absolute;
 	width: 100%;
-	padding: 25px 0;
+	padding: 14px 0;
 	-webkit-transition: background-color 0.25s ease;
 	-moz-transition: background-color 0.25s ease;
 	-ms-transition: background-color 0.25s ease;
@@ -8539,7 +8540,7 @@ body.logged-in .YouTubePopUp-Wrap {
 
 .logo__image {
 	display: block;
-	height: 40px;
+	height: 80px;
 }
 /* ==========================================================================
    Block: Map
@@ -10460,3 +10461,174 @@ div.video:before {
 		margin-bottom: 20px;
 	}
 }
+
+
+/*-------
+
+   Arrow
+
+-------*/
+@-webkit-keyframes floating-arrow {
+  from {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px); }
+  65% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px); }
+  to {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px); } }
+@keyframes floating-arrow {
+  from {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px); }
+  65% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px); }
+  to {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px); } }
+@-webkit-keyframes floating-arrow-up {
+  0% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px); }
+  25% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px); }
+  75% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px); } }
+@keyframes floating-arrow-up {
+  0% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px); }
+  25% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px); }
+  75% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px); } }
+.mbr-arrow {
+  bottom: 48px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%; }
+  @media (max-width: 991px) {
+    .mbr-arrow {
+      bottom: 31px; } }
+  @media (max-width: 320px) {
+    .mbr-arrow {
+      bottom: 21px; } }
+  @media all and (device-width: 320px) and (device-height: 568px) and (orientation: portrait) {
+    .mbr-arrow {
+      bottom: 31px; } }
+  .mbr-arrow a {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    height: 46px;
+    outline-style: none !important;
+    position: relative;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    width: 46px; }
+    .mbr-arrow a:hover {
+      background: #2d2d2d; }
+  .mbr-arrow-icon {
+    display: block; }
+    .mbr-arrow-icon::before {
+      content: "\203a";
+      display: inline-block;
+      font-family: serif;
+      font-size: 32px;
+      line-height: 1;
+      font-style: normal;
+      left: 4px;
+      position: relative;
+      top: 6px;
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg); }
+  .mbr-arrow-floating .mbr-arrow-icon {
+    -webkit-animation: floating-arrow 1.6s infinite ease-in-out 0s;
+    animation: floating-arrow 1.6s infinite ease-in-out 0s; }
+
+.mbr-arrow-up {
+  bottom: 25px;
+  right: 90px;
+  position: fixed;
+  text-align: right;
+  z-index: 5000; }
+  @media (max-width: 991px) {
+    .mbr-arrow-up {
+      bottom: 31px; } }
+  @media (max-width: 320px) {
+    .mbr-arrow-up {
+      bottom: 21px; } }
+  @media all and (device-width: 320px) and (device-height: 568px) and (orientation: portrait) {
+    .mbr-arrow-up {
+      bottom: 31px; } }
+  .mbr-arrow-up a {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    height: 46px;
+    outline-style: none !important;
+    position: relative;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    width: 46px;
+    cursor: pointer; }
+    .mbr-arrow-up a:hover {
+      background: #2d2d2d; }
+  .mbr-arrow-up-icon {
+    display: block; }
+    .mbr-arrow-up-icon::before {
+      content: "\203a";
+      display: inline-block;
+      font-family: serif;
+      font-size: 32px;
+      line-height: 1;
+      font-style: normal;
+      position: relative;
+      top: 6px;
+      left: -4px;
+      -webkit-transform: rotate(-90deg);
+      transform: rotate(-90deg); }
+  .mbr-arrow-up:hover .mbr-arrow-up-icon {
+    -webkit-animation: floating-arrow-up 1.6s ease-in-out infinite 0s;
+    animation: floating-arrow-up 1.6s ease-in-out infinite 0s; }
+
+@media (max-width: 768px) {
+  .mbr-arrow-up {
+    right: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    text-align: center;
+    bottom: 15px; } }
+@media (min-width: 768px) {
+  .mbr-right-padding-md-up {
+    padding-right: 60px; } }
+
+@media (min-width: 768px) {
+  .mbr-left-padding-md-up {
+    padding-left: 60px; } }
+
+.mbr-valign-top {
+  vertical-align: top; }
+
+.form-asterisk {
+  font-family: initial;
+  position: absolute;
+  top: -2px;
+  font-weight: normal; }
+
+.row-sm-offset {
+  margin-left: -0.625rem;
+  margin-right: -0.625rem; }
+  .row-sm-offset > * {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
