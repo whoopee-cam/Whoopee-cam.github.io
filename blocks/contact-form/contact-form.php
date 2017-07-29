@@ -7,7 +7,7 @@
     $message = htmlspecialchars($_POST["message-input"]);
 
     // Paste your mail here.
-    $myemail = "mail@example.com";
+    $myemail = "appsdev@indianic.com";
  
     // Setting a content type.
     $headers = "MIME-Version: 1.0\r\n";
