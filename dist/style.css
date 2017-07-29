@@ -8441,11 +8441,11 @@ body.logged-in .YouTubePopUp-Wrap {
 .instagram-widget__item:hover .instagram-widget__image {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
-	-webkit-transform: scale(1.5);
-	-moz-transform: scale(1.5);
-	-ms-transform: scale(1.5);
-	-o-transform: scale(1.5);
-	transform: scale(1.5);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .instagram-widget__link {
@@ -8470,8 +8470,8 @@ body.logged-in .YouTubePopUp-Wrap {
 
 .instagram-widget__image {
 	display: block;
-	-webkit-filter: grayscale(0.8);
-	filter: grayscale(0.8);
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
 }
 /* ==========================================================================
    Block: Link List
@@ -8684,7 +8684,7 @@ a[href^="https://maps.google.com/maps"] {
 	cursor: pointer;
 	overflow: hidden;
 	position: relative;
-	margin-top: 10px;
+	margin-top: 33px;
 	float: right;
 	display: none;
 	-webkit-transition: background-color 0.25s ease;
