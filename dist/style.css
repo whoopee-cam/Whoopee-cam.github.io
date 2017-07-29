@@ -2447,6 +2447,7 @@ select[multiple].input-lg {
 
 	.col-md-20 {
 		width: 83.33333333%;
+		padding-top: 22px;
 	}
 
 	.col-md-19 {
@@ -8276,7 +8277,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	z-index: 10;
 	position: absolute;
 	width: 100%;
-	padding: 25px 0;
+	padding: 14px 0;
 	-webkit-transition: background-color 0.25s ease;
 	-moz-transition: background-color 0.25s ease;
 	-ms-transition: background-color 0.25s ease;
@@ -8539,7 +8540,7 @@ body.logged-in .YouTubePopUp-Wrap {
 
 .logo__image {
 	display: block;
-	height: 40px;
+	height: 80px;
 }
 /* ==========================================================================
    Block: Map
