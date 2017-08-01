@@ -437,6 +437,23 @@
 	<!-- Scripts -->
 	<script src="https://maps.googleapis.com/maps/api/js"></script>
 	<script src="dist/script.js"></script>
+	<script type="text/javascript">
+		var figure = $(".instagram-widget__item");
+		var vid = figure.find("video");
+
+		[].forEach.call(figure, function (item,index) {
+		    item.addEventListener('mouseover', hoverVideo.bind(item,index), false);
+		    item.addEventListener('mouseout', hideVideo.bind(item,index), false);
+		});
+
+		function hoverVideo(index, e) {
+		    vid[index].play(); 
+		}
+
+		function hideVideo(index, e) {
+		    vid[index].pause(); 
+		}
+	</script>
 </body>
 
 </html>
