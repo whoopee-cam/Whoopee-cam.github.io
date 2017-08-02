@@ -476,9 +476,9 @@
                         <div class="member  ">
                             <div class="member__photo-wrapper">
                             <a href="https://www.instagram.com/whoopee_camera/" target="_blank" class="instagram-widget__link">                                
-                                <video  width="100%" autoplay loop>
+                                <video  width="100%" autoplay loop poster="blocks/carousel/Img/17.jpg">
 								  <source src="blocks/instagram-widget/Img/v10.mp4" type="video/mp4">
-								</video>
+								</video>								
                             </a>                           
                             </div>
                             <h3 class="member__name">Hardik Halani</h3>
@@ -490,8 +490,8 @@
                         <!-- Member -->
                         <div class="member  ">
                             <div class="member__photo-wrapper">
-                            <a href="https://www.instagram.com/whoopee_camera/" target="_blank" class="instagram-widget__link">                                
-                                <video width="100%" autoplay loop>
+                            <a href="https://www.instagram.com/whoopee_camera/" target="_blank" class="instagram-widget__link">
+                                <video  width="100%" autoplay loop poster="blocks/carousel/Img/17.jpg">
 								  <source src="blocks/instagram-widget/Img/v5.mp4" type="video/mp4">
 								</video>
                             </a>                           
@@ -544,6 +544,15 @@
 		function hideVideo(index, e) {
 		    vid[index].pause(); 
 		}
+				// show loading image
+		$('#loader_img').show();
+
+		// main image loaded ?
+		$('#main_img').on('load', function(){
+		  // hide/remove the loading image
+		  $('#loader_img').hide();
+		});
+
 	</script>
 </body>
 
