@@ -8421,7 +8421,7 @@ body.logged-in .YouTubePopUp-Wrap {
 
 .instagram-widget__item {
 	float: left;
-	width: 10%;
+	width: 12%;
 	position: relative;
 	opacity: 1;
 	-webkit-transition: opacity 0.3s ease, filter 0.3s ease;
@@ -8429,6 +8429,8 @@ body.logged-in .YouTubePopUp-Wrap {
 	-ms-transition: opacity 0.3s ease, filter 0.3s ease;
 	-o-transition: opacity 0.3s ease, filter 0.3s ease;
 	transition: opacity 0.3s ease, filter 0.3s ease;
+	padding: 30px 10px;
+    background: white;
 }
 
 .instagram-widget__item--icon {
@@ -9389,7 +9391,8 @@ a[href^="https://maps.google.com/maps"] {
    Dependencies: Fontello.less
    ========================================================================== */
 .section {
-	padding: 50px 0;
+	padding: 80px 0;
+	padding-bottom: 0px;
 	position: relative;
 }
 
@@ -9428,7 +9431,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .section--large {
-	padding: 170px 0;
+	padding: 100px 0;
 }
 
 .section--no-pb {
