@@ -9393,6 +9393,12 @@ a[href^="https://maps.google.com/maps"] {
 	position: relative;
 }
 
+.section--white {
+	padding-top: 50px;
+    padding-bottom: 50px;
+	background-color: #ffffff;
+}
+
 .section--grey {
 	background-color: #f7f7f7;
 }
